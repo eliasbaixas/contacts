@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "kulesa-contacts"
+  s.name = "eliasbaixas-contacts"
   s.version = "0.2.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mislav Marohnic", "George Odata", "Julian Countu"]
   s.date = "2011-10-05"
   s.description = "Import users' contacts lists from Google, Yahoo!, and Windows Live."
-  s.email = "kulesa@gmail.com"
+  s.email = "elias.baixas@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.markdown"
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
-    "kulesa-contacts.gemspec",
+    "eliasbaixas-contacts.gemspec",
     "lib/contacts.rb",
     "lib/contacts/consumer.rb",
     "lib/contacts/google.rb",
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
     "lib/contacts/version.rb",
     "lib/contacts/windows_live.rb",
     "lib/contacts/yahoo.rb",
-    "pkg/kulesa-contacts-0.2.6.gem",
+    "pkg/eliasbaixas-contacts-0.2.6.gem",
     "spec/config/contacts.yml",
     "spec/contact_spec.rb",
     "spec/feeds/google-many.xml",
@@ -47,7 +47,7 @@ Gem::Specification.new do |s|
     "spec/windows_live/windows_live_spec.rb",
     "spec/yahoo/yahoo_spec.rb"
   ]
-  s.homepage = "https://github.com/kulesa/contacts"
+  s.homepage = "https://github.com/eliasbaixas/contacts"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
