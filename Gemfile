@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 gem "httparty"
 gem "hpricot"
-gem "nokogiri", "~> 1.5.0"
+gem "nokogiri", "~> 1.6.5"
 gem "oauth", "~> 0.4.7"
 gem "json"
 
